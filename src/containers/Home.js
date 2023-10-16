@@ -8,6 +8,11 @@ export default function Home() {
       <div className="container">
         <div className="wraper">
           <Item></Item>
+          <Item></Item>
+          <Item></Item>
+          <Item></Item>
+          <Item></Item>
+          <Item></Item>
         </div>
       </div>
     </>
