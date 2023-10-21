@@ -13,8 +13,8 @@ export default function Header() {
       </a>
 
       <h1 className="titulo">
-        Dev <br />
-        RockStore
+        Cositas &#9733; <br />
+        Store 
       </h1>
     </>
     

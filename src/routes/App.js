@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Home from '../containers/Home';
 import Cart from '../containers/Cart';
 import Products from '../containers/Products';
+import UseContexto from "../context/UseContexto";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
 
 <BrowserRouter>
+<UseContexto>
 <Layout>
 <Routes>
           <Route path='/' element={<Home />} />
@@ -17,6 +19,7 @@ function App() {
           <Route path='/productos' element={<Products />} />
 </Routes>
 </Layout>
+</UseContexto>
 </BrowserRouter>
     </>
   );
